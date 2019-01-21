@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0028ff;
+  color: #fff;
+  font-family: "Avenir Next", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body html {
+  min-height: 100vh;
+}
+
+a {
+  color: rgba(#fff, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#fff, 0.6);
+  }
+}
+
+h1 {
+  font-size: 30vmin;
+  letter-spacing: -1vmin;
+}
