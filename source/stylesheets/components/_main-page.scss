@@ -4,30 +4,23 @@
 }
 
 body {
-  background-color: #0028ff;
+  min-height: 100vh;
+  background-color: $primary-color;
   color: #fff;
   font-family: "Avenir Next", sans-serif;
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
-body html {
-  min-height: 100vh;
-}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
 
-a {
-  color: rgba(#fff, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#fff, 0.6);
+  .text-block {
+    margin: 100px 20px 0px 20px;
   }
-}
-
-h1 {
-  font-size: 30vmin;
-  letter-spacing: -1vmin;
 }

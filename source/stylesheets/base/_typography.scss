@@ -1,0 +1,22 @@
+a {
+  color: rgba(#fff, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#fff, 0.6);
+  }
+}
+
+h1 {
+  font-size: 30vmin;
+  letter-spacing: -1vmin;
+  color: $text-color;
+}
+
+p {
+  font-size: 1.125em;
+  text-align: left;
+  line-height: 1.65em;
+  letter-spacing: 0.3px;
+  color: $text-color;
+}
