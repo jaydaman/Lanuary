@@ -1,0 +1,57 @@
+.center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .content__img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: url(../../images/cpu-smiley.png) no-repeat center center /
+      contain;
+  }
+
+  .content__message {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .content__wrap {
+    margin-top: 40px;
+
+    .content__link {
+      margin: 16px 0 16px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &:hover {
+        .left {
+          right: 20px;
+        }
+
+        .right {
+          left: 20px;
+        }
+      }
+
+      .left {
+        position: relative;
+        right: 12px;
+      }
+
+      .right {
+        position: relative;
+        left: 10px;
+      }
+    }
+  }
+}
