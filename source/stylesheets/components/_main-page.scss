@@ -44,6 +44,7 @@ h2 {
   @media #{$smallscreen} {
     justify-content: center;
     align-items: center;
+    height: 450px;
   }
 
   &.first {
@@ -64,6 +65,7 @@ h2 {
       margin-left: 0;
       max-width: 500px;
       text-align: center;
+      font-size: 18px;
     }
   }
 }
