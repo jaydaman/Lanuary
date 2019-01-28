@@ -74,7 +74,7 @@ h2 {
   flex: 1 2 auto;
 
   @media #{$smallscreen} {
-    display: none;
+    // display: none;
   }
 }
 
