@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://lanuari.netlify.com/* https://lanuari.varvet.com/:splat 301!
+https://lanuari.netlify.com/ https://lanuari.varvet.com/
